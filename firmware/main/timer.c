@@ -21,10 +21,10 @@ static const char *TAG = "timer";
 // Timer durations in minutes (mapped to button indices)
 static const uint32_t timer_durations[NUM_BUTTONS] = {
     TIMER_DURATION_5MIN,   // Button 0: 5 minutes
-    TIMER_DURATION_15MIN, // Button 1: 15 minutes
-    TIMER_DURATION_30MIN, // Button 2: 30 minutes
-    TIMER_DURATION_45MIN, // Button 3: 45 minutes
-    TIMER_DURATION_60MIN  // Button 4: 60 minutes
+    TIMER_DURATION_10MIN,  // Button 1: 10 minutes
+    TIMER_DURATION_25MIN,  // Button 2: 25 minutes
+    TIMER_DURATION_45MIN,  // Button 3: 45 minutes
+    TIMER_DURATION_60MIN   // Button 4: 60 minutes
 };
 
 // Timer state

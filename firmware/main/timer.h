@@ -20,11 +20,11 @@ extern "C" {
 #endif
 
 // Timer durations in minutes (mapped to button indices)
-#define TIMER_DURATION_5MIN  1
-#define TIMER_DURATION_15MIN 15
-#define TIMER_DURATION_30MIN 30
-#define TIMER_DURATION_45MIN 45
-#define TIMER_DURATION_60MIN 60
+#define TIMER_DURATION_5MIN   5
+#define TIMER_DURATION_10MIN  10
+#define TIMER_DURATION_25MIN  25
+#define TIMER_DURATION_45MIN  45
+#define TIMER_DURATION_60MIN  60
 
 // Timer states
 typedef enum {
@@ -49,7 +49,7 @@ void timer_init(void);
 /**
  * @brief Start timer with specified duration
  * 
- * @param duration_minutes Duration in minutes (5, 15, 30, 45, or 60)
+ * @param duration_minutes Duration in minutes (5, 10, 25, 45, or 60)
  * @return true on success, false on failure
  */
 bool timer_start(uint32_t duration_minutes);
